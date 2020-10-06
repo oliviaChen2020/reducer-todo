@@ -25,7 +25,7 @@ export function reducer(state = initialState, action) {
       });
 
     case 'CLEAR_COMPLETED':
-      return state.filter(item => item.completed === false);
+      return state.filter(item => item.completed = false);
 
     default:
       return state;
